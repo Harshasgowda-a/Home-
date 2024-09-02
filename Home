@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Finances</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Home Finance Calculator</h1>
+    <div id="form-container">
+        <div class="person">
+            <input type="text" placeholder="Name" class="name">
+            <input type="number" placeholder="Amount Spent" class="amount">
+        </div>
+        <button id="add-person">Add Person</button>
+        <button id="calculate">Calculate</button>
+    </div>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
